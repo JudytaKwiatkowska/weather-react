@@ -8,6 +8,16 @@ function App() {
   return (
     <div className="App">
       <Weather />
+      <footer>
+        ✌️ This website was coded by Judyta Kwiatkowska, and is&nbsp;
+        <a
+          href="https://github.com/JudytaKwiatkowska/weather-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced.
+        </a>
+      </footer>
     </div>
   );
 }
