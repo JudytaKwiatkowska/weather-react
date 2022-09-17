@@ -35,15 +35,15 @@ li {
 
 .Weather img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 70px;
+  width: 70px;
   float: left;
 }
 
 .Weather strong {
   color: rgb(33, 33, 33);
   font-size: 64px;
-  line-height: 1;
+  line-height: 1.1;
   font-weight: 400;
 }
 
