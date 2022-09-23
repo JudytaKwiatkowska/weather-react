@@ -33,11 +33,8 @@ li {
   line-height: 19px;
 }
 
-.Weather img {
-  margin-right: 5px;
-  height: 70px;
-  width: 70px;
-  float: left;
+.Weather canvas {
+  margin: 10px 15px 10px 15px;
 }
 
 .Weather strong {
