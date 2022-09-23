@@ -1,26 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles.css";
-import Weather from "./Weather";
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-function App() {
-  return (
-    <div className="App">
-      <Weather defaultCity="New York" />
-      <footer>
-        ✌️ This website was coded by Judyta Kwiatkowska, and is&nbsp;
-        <a
-          href="https://github.com/JudytaKwiatkowska/weather-react"
-          target="_blank"
-          rel="noreferrer"
-        >
-          open-sourced.
-        </a>
-      </footer>
-    </div>
-  );
-}
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.css";
+import App from "./App";
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
+    <App />
+  </StrictMode>
+);
