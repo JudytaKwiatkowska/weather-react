@@ -13,12 +13,16 @@ export default function App() {
           <a
             href="https://github.com/JudytaKwiatkowska/weather-react"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             open-sourced on GitHub
           </a>{" "}
           and{" "}
-          <a href="https://vocal-sable-0443a6.netlify.app" target="_blank">
+          <a
+            href="https://vocal-sable-0443a6.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             hosted on Netlify
           </a>
         </footer>
